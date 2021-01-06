@@ -1,0 +1,33 @@
+/* pages/index/index-c8/eight.wxss */
+.bigk{
+  /* margin-top: 10rpx; */
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #FFF;
+  /* border: 1rpx solid red; */
+}
+.bigk .li{
+  width: 25%;
+  text-align: center;
+  /* border-bottom: 1rpx solid #000; */
+  overflow: hidden;
+  font-size: 24rpx;
+  padding-top: 15rpx
+}
+.bigk .li image{
+   border-radius:50rpx;
+    height: 45px;
+    width: 45px;
+    display: block;
+    margin: 0px auto;
+  
+}
+.bigk text{
+  position: relative;
+  width: 25%;
+  text-align: center;
+  /* border-bottom: 1rpx solid #000; */
+  overflow: hidden;
+  font-size: 24rpx;
+  line-height: 60rpx
+}

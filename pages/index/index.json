@@ -1,0 +1,14 @@
+{
+  "usingComponents": {
+    "index-ahead":"../index-ahead/index-ahead",
+     "banner":"../index-banner/banner",
+     "eight": "../index-c8/eight",
+     "hudden": "../index-dhed/hudden",
+     "buttom":"../index-ebuttom/buttom"
+    },
+  "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#409181",
+    "navigationBarTextStyle": "black",
+    "navigationStyle":"custom"
+  
+}

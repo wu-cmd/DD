@@ -1,0 +1,144 @@
+/* pages/detail/detail.wxss */
+.detail-contain{
+  background-color: #FFf;
+}
+.detalbanner{
+  height: 200rpx;
+}
+.detalbanner image{
+  width: 100%;
+  height: 100%;
+}
+.headimg{
+  position: relative;
+  margin: 0 auto;
+  top: -55rpx;
+  width: 120rpx;
+  height: 120rpx;
+
+}
+.headimg image{
+  width: 100%;
+  height: 100%;
+}
+/* 标题优惠券之类 */
+.textcontain{
+  text-align: center;
+  color: #000;
+}
+.ta{
+  font-weight: 700;
+}
+.yhq{
+  margin-top: 15rpx;
+}
+.redjian{
+  background-color: red;
+  color: #FFF;
+  padding: 3rpx;
+  font-size: 22rpx;
+}
+.changzi{
+  padding-left: 10rpx;
+  font-size: 22rpx;
+  color: #999;
+}
+.tx{
+  background-color: red;
+  color: #FFF;
+  font-size: 24rpx;
+  padding: 5rpx 10rpx;
+  border-radius:10rpx;
+  font-size: 22rpx;
+}
+.shengxia{
+  margin-top: 22rpx;
+  padding-left: 30rpx;
+  font-size: 22rpx;
+}
+.qiang{
+  text-align: right;
+  float: left;
+  width: 30%;
+  font-size: 22rpx;
+}
+.pro{
+  padding-left: 20rpx;
+  padding-top: 13rpx;
+  float: left;
+  width: 50%;
+}
+.leri{
+  padding-bottom: 20rpx;
+}
+/* 下面框 */
+.center{
+  margin:30rpx 2%;
+  background-color: #FFF;
+  border: 1rpx dashed #Eee;
+  box-shadow: 5rpx 5rpx 10rpx #999;
+}
+.center-top{
+  padding:10rpx 3%;
+  border-radius:10rpx;
+  border-bottom: 1rpx solid #Eee;
+}
+.center-img{
+  float: left;
+}
+.invite{
+  float: right;
+  margin-top: 5rpx;
+  padding:3rpx 13rpx;
+  border-radius:25rpx ; 
+  font-size: 22rpx;
+  background-color: #fbbd08;
+}
+.conter-bottom{
+  padding-bottom: 20rpx;
+}
+.bottom-img{
+  float: left;
+  margin-top: 20rpx;
+  margin-left: 20rpx;
+    width: 100rpx;
+    height: 100rpx;
+}
+.bottom-img image{
+  width: 100%;
+  height: 100%;
+}
+.wenzi{
+  float: left;
+  margin-top: 20rpx;
+  margin-left: 3%;
+  width: 60%;
+  font-size: 22rpx;
+}
+.last-buttom{
+  position: fixed;
+  bottom: 0rpx;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+}
+.but{
+  width: 20%;
+  text-align: center;
+  background-color: #FFF;
+  font-size: 22rpx;
+  border-right: 1rpx solid #eee;
+}
+.ctb{
+  width: 30%;
+  text-align: center;
+  background-color: red;
+  color: #FFF;
+  font-size: 22rpx;
+  border-right: 1rpx solid #FFF;
+}
+.iconcss{
+  padding-bottom: 10rpx;
+  display: block;
+  font-size:40rpx;
+}

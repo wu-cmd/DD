@@ -1,0 +1,8 @@
+<!--comment/anniu/anniu.wxml-->
+<view class="titles">
+<block wx:for="{{titles}}" wx:key="index">
+<view class= 'zb {{currentIndex==index?"tabTrue":""}}' bind:tap="onclick" data-index="{{index}}">
+    <text>{{item}}</text>
+</view>
+</block>
+</view>

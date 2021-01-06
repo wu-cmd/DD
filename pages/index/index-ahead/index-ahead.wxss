@@ -1,0 +1,42 @@
+/* pages/index/index-ahead/index-ahead.wxss */
+/* .header{
+  position: fixed;
+  top: 0rpx;
+  width: 100%;
+  z-index: 200;
+ background-color:  #CF2809;
+ padding: 60rpx 3% 20rpx 5%;
+}
+.header .atext{
+  float: left;
+  color: #FFF;
+  font-weight: 1000;
+  font-size: 30rpx;
+   
+
+}
+
+.header input{
+  width: 100%;
+    height:20px;
+    background: #eee;
+    line-height: 2px;
+    border: none;
+    border-radius: 15px;
+    padding: 0 10px 0 30px;
+
+}
+.header .search i{
+    position: absolute;
+    top: 1px;
+    left: 10%;
+    font-size: 20px;
+    color: #888888;
+}
+.search{
+  position: relative;
+  width: 45%;
+ text-align: left;
+ padding-left: 20rpx;
+ float: left;
+} */

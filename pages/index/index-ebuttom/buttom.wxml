@@ -1,0 +1,21 @@
+<!--pages/index/index-ebuttom/buttom.wxml-->
+  <block class="lie-contain">
+          <block wx:for="{{list}}" wx:key="index">
+           <view class="liesmall clearfix">
+             <image src="{{item.aimg}}"></image>
+        <view class="sm-title">
+            <view class="title-border clearfix">
+                <view class="atitle">{{item.shopname}}</view>
+                <view class="distance">{{item.km}}</view>
+            </view>
+            <text class="btext">{{item.jian}}</text>
+            <text class="ctext">{{item.date}}</text>
+            <view class="pro clearfix">
+             <text class="fonsize12 wthree">{{item.present}}</text>
+             <view  class="gress"> <progress percent="47" ></progress></view>
+             </view>
+            <text class="dtext">{{item.shoprice}}</text>
+        </view>
+    </view>
+      </block>
+      </block>

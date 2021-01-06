@@ -1,0 +1,9 @@
+{
+ 
+  "usingComponents": {},
+  "navigationBarBackgroundColor": "#FF0000",
+  "navigationBarTitleText": "商家列表",
+  "navigationBarTextStyle": "white",
+  "backgroundTextStyle": "light"
+
+}

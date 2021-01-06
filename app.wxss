@@ -1,0 +1,32 @@
+/**app.wxss**/
+/* @import '/libs/css/common.wxss'; */
+@import "colorui/main.wxss";
+@import "colorui/icon.wxss";
+@import "iconfont.wxss";
+/* 清除浮动 */
+.clearfix:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+.clearfix{overflow:hidden;_zoom:1;}
+/*防止溢出文字*/
+.over{
+	overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical
+}
+.wzcenter{
+  text-align: center;
+  font-size: 40rpx;
+}
+.block{
+  display: block;
+}
+.fonsize12{
+  font-size: 22rpx;
+}

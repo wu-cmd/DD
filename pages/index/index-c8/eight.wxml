@@ -1,0 +1,13 @@
+<!--pages/index/index-c8/eight.wxml-->
+ <view class="select"> 
+          <view class="bigk">
+          <block wx:for="{{nav}}"  wx:key="index">
+              <view class="li">
+              <navigator url="../detail/detail"> 
+                  <image src="{{item.navimg}}"></image>
+                  <text class="titleclass">{{item.tet}}</text>
+                   </navigator>
+              </view>
+           </block>
+    </view>
+  </view>

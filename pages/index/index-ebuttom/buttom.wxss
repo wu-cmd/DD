@@ -1,0 +1,90 @@
+/* pages/index/index-ebuttom/buttom.wxss */
+
+.lie-contain{
+  padding-top: 40rpx;
+  background-color: #FFF;  
+  
+ 
+}
+.liesmall{
+  padding-bottom: 40rpx;
+   padding-top: 20rpx;
+  border-bottom:1rpx solid #EEe ;
+}
+.liesmall image{
+  float: left;
+  margin-top: 10rpx;
+  margin-left: 40rpx;
+  width: 160rpx;
+  height: 160rpx;
+
+}
+.sm-title{
+  float: left;
+  margin-left: 20rpx;
+  /* border: 1rpx solid red; */
+  width: 70%;
+  /* line-height: 40rpx; */
+}
+.atitle{
+  float: left;
+  font-weight: 700;
+}
+.distance{
+  float: right;
+  font-size: 22rpx;
+  padding-top: 10rpx;
+}
+.title-border{
+  margin-bottom: 10rpx;
+}
+.btext{
+  background-color: red;
+  color: #FFf;
+  font-size: 22rpx;
+  padding: 3rpx;
+}
+.ctext{
+  padding-left: 22rpx;
+  font-size: 22rpx;
+}
+.dtext{
+  background-color: red;
+  font-size: 22rpx;
+  color: #FFF;
+  padding:5rpx;
+  border-radius:10rpx ;
+}
+.pro{
+  padding-top: 15rpx;
+  margin-bottom: 10rpx;
+  display: block;
+  text-align: left;
+  
+}
+.wthree{
+  display: block;
+  width: 20%;
+ float: left;
+}
+.gress{
+  padding-top: 15rpx;
+  float: left;
+  width: 70%;
+}
+.buttom-containr{
+  background-color: #FFF;
+  height: 500rpx;
+}
+.buttom{
+  background-color: #EEe;
+  text-align: center;
+  padding:15rpx 0;
+  color: #999;
+  display: block;
+  margin:0 auto;width: 100%;
+  /* margin-bottom: 500rpx; */
+}
+
+
+

@@ -1,0 +1,70 @@
+<!--pages/user/user.wxml-->
+<view>
+<!-- 头部 -->
+    <view class="header clearfix">
+       <image src= '../../images/user/head.jpg'   bindtap="previewImg" data-index='{{index}}'></image>
+       <view class="atext">
+            <text class="ta">Smile</text>
+            <text class="tb">申请成为合伙人</text>
+        </view>
+        <view class="vip">
+            <view class="vs">
+                 <text class="vstext">叮叮会员</text>
+            </view>
+            <view class="vsa">
+                <text class="vstext sizi">会员获得更多专享权益</text>
+            </view>
+            <view class="vsb">
+                <view  class="buttonsizi"><text class="sizitex">立即开通</text></view>
+            </view>
+         </view>
+    </view>
+    <!-- 清单 -->
+    <view class="qingdan">
+      <view class="top-qin">
+          <text>返现清单</text>
+      </view>
+      <view class="buttom-qin">
+          <view>
+                <text class="tc">0</text>
+                <text class="fonsize12">进行中</text>
+          </view>
+          <view>
+                 <text class="tc">0</text>
+                <text class="fonsize12">已完成</text>
+          </view>
+          <view>
+                <text class="tc">0</text>
+                <text class="fonsize12">已失败</text>
+            </view>
+      </view>
+    </view>
+    <!-- 广告 -->
+    <view class="adver">
+      <image src="../../images/sy/banner1.jpg" mode ='aspectFill'></image>
+    </view>
+     <!-- 我的工具 -->
+    <view class="qingdan">
+      <view class="top-qin">
+          <text>我的工具</text>
+      </view>
+      <view class="buttom-qin">
+          <view>
+                <icon class="iconfont icon-yue2 ai wzcenter"></icon>
+                <text  class="fonsize12  block tp">余额</text>
+          </view>
+          <view>
+                <icon class="iconfont icon-ziyuan bi wzcenter"></icon>
+                <text  class="fonsize12  block tp">推广</text>
+          </view>
+          <view>
+                <icon class="iconfont icon-xinbaniconshangchuan- ci wzcenter"></icon>
+                <text  class="fonsize12  block tp">客服</text>
+            </view>
+             <view>
+                <icon class="iconfont icon-bangzhu di wzcenter"></icon>
+                <text class="fonsize12  block tp">帮助</text>
+            </view>
+      </view>
+    </view>
+</view>

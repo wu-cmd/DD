@@ -1,0 +1,22 @@
+<!--pages/index/index-dhed/hudden.wxml-->
+ <view class="hidden">
+        <view class="hidder_top">
+            <text class="text1">超大返现</text>
+            <text class="text2">折扣等你领</text>
+           <navigator url="../list/list" class="text3">更多></navigator>
+        </view>
+        <view class="hidden_buttom clearfix">
+              <block wx:for="{{hudden}}" wx:key="index">
+               <!-- wx:key="aa" -->
+            <view class="hb1">
+                <view class="img">
+                    <image src="{{item.imagea}}"></image>
+                </view>
+                <view class="textbu">
+                    <text class="block">{{item.name}}</text>
+                    <text class="red block">{{item.price}}</text>
+                </view>
+             </view>
+             </block>
+        </view>
+    </view>

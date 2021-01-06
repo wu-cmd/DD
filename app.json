@@ -1,0 +1,39 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/user/user",
+    "pages/list/list",
+    "pages/distance/distance",
+    "pages/detail/detail",
+    "pages/index/index-ebuttom/buttom"
+  ],
+  "usingComponents": {
+    "anniu": "../../comment/anniu/anniu"
+  },
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#409181",
+    "navigationBarTextStyle": "black"
+  },
+  "tabBar": {
+    "selectedColor": "#d81e06",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/sy/home.png",
+        "selectedIconPath": "images/sy/home_cur.png",
+        "color": "d81e06"
+      },
+      {
+        "pagePath": "pages/user/user",
+        "text": "我的",
+        "iconPath": "images/sy/user.png",
+        "selectedIconPath": "images/sy/user_cur.png",
+        "color": "d81e06"
+      }
+    ]
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json"
+}

@@ -1,0 +1,46 @@
+<!-- pages/list/list.wxml
+<view class="hd clearfix">
+<view class="hdleft">
+<icon class="iconfont icon-dayuhao fhtop"></icon>
+ <text class="fha">返回</text>
+ </view>
+<view class="fh">
+
+         <text class="title">商家列表</text>
+</view>
+</view> -->
+<!-- <view class="contain"> -->
+ <!-- 三个按 -->
+    <view class="buteom">
+        <view class="boteom-a">
+            <text class="ta">综合排序</text>
+        </view>
+        <view class="boteom-a">
+            <text>距离最近</text>
+        </view>
+         <view class="boteom-a">
+            <text>佣金最高</text>
+        </view>
+    </view>
+    <!-- 列表底下   此处需要修改运用for循环和点击 -->
+    <view class="lie-contain">
+          <block wx:for="{{list}}"  wx:key="index">
+           <view class="lie_small clearfix">
+             <image src="{{item.aimg}}"></image>
+        <view class="sm-title">
+            <view class="title-border clearfix">
+                <view class="atitle">{{item.shopname}}</view>
+                <view class="distance">{{item.km}}</view>
+            </view>
+            <text class="btext">{{item.jian}}</text>
+            <text class="ctext">{{item.date}}</text>
+            <view class="pro clearfix">
+             <text class="fonsize12 wthree">{{item.present}}</text>
+             <view  class="gress"> <progress percent="47" ></progress></view>
+             </view>
+            <text class="dtext">{{item.shoprice}}</text>
+        </view>
+    </view>
+     </block>
+    </view>
+

@@ -1,0 +1,44 @@
+
+<view class="coner">
+<!-- 头部 -->
+  <!-- <index-ahead  title="小叮叮" /> -->
+   <view class="header">
+   <text class="atext">{{title}}</text>
+   <view class="search">
+    <i class="iconfont icon-sousuo"></i>
+    <input type="text" placeholder="搜索商家" class="first" ></input>
+  </view>
+  </view>
+
+<!-- banner -->
+  <banner class="banner"/>
+   <!-- 八个选项 -->
+<!-- <eight titleclass="red"/> -->
+<eight/>
+    <!-- 手动滑动 -->
+<hudden/>
+<!-- 三个按 -->
+<anniu  titles='{{titles}}' bind:click="dianji" class="top" />
+    
+<!-- 列表底下   此处需要修改运用for循环和点击 -->
+<buttom class="bg"/> 
+<!-- 回到顶部 -->
+
+ <view class="up" bindtap="handTop" wx:if="{{showtop}}">
+      <icon class="upcon iconfont icon-up1"></icon>
+  </view>  
+    </view>
+        <!-- 最底的没有更多 -->
+   <!-- <view class="buttom-containr">
+   <text class="buttom">- - -没有更多商家了- - -</text>
+   </view> -->
+
+<!-- 三个按钮 -->
+<!-- <view class="buteom">
+        <view class='abox'>
+        <view wx:for="{{title}}" class='{{currentIndex==index?"tabTrue":""}}' data-aa='{{index}}' wx:key="index" bindtap='changeTab'>
+            {{item}}
+        </view>
+        <view class='b' style="left:{{left}}px"></view>
+        </view>
+    </view> -->

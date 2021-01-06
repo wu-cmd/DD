@@ -1,0 +1,124 @@
+/* pages/list/list.wxss */
+/* .hd{
+  position: fixed;
+  top: 0rpx;
+  width: 100%;
+  padding:55rpx 10rpx 30rpx 20rpx;
+  background-color: red;
+  color: #FFF;
+  font-weight: 700;
+  z-index: 999;
+}
+.hdleft{
+  position: absolute;
+  top: 41rpx;
+}
+.fhtop{
+  font-weight: 700;
+  top: 10rpx;
+  transform: rotateY(180deg);
+}
+.fha{
+  padding-left: 5rpx;
+}
+.fh{
+  text-align: center;
+
+  /* width: 55%; */
+ 
+
+.contain{
+  position: relative;
+  margin-top: 125rpx;
+}
+/* 三个按钮 */
+.buteom{ 
+   display: flex;
+   justify-content: space-around;
+   background-color: #FFF;
+   border-bottom:1rpx solid #eee ;
+}
+.boteom-a{
+  text-align: center;
+  /* border: 1rpx solid red; */
+  padding: 15rpx 0;
+  /* border-bottom:2rpx solid aqua ; */
+}
+.ta{
+  padding: 15rpx 0;
+  color: #e54d42;
+  border-bottom:4rpx solid #e54d42; 
+}
+/* 列表 */
+.lie-contain{
+  padding-top: 40rpx;
+  background-color: #FFF;  
+  
+ 
+}
+.lie_small{
+  padding-bottom: 40rpx;
+  padding-top: 20rpx;
+  border-bottom:1rpx solid #EEe ;
+}
+.lie_small image{
+  float: left;
+  margin-top: 10rpx;
+  margin-left: 40rpx;
+  width: 160rpx;
+  height: 160rpx;
+
+}
+.sm-title{
+  float: left;
+  margin-left: 20rpx;
+  /* border: 1rpx solid red; */
+  width: 70%;
+  /* line-height: 40rpx; */
+}
+.atitle{
+  float: left;
+  font-weight: 700;
+}
+.distance{
+  float: right;
+  font-size: 22rpx;
+  padding-top: 10rpx;
+}
+.title-border{
+  margin-bottom: 10rpx;
+}
+.btext{
+  background-color: red;
+  color: #FFf;
+  font-size: 22rpx;
+  padding: 3rpx;
+}
+.ctext{
+  padding-left: 22rpx;
+  font-size: 22rpx;
+}
+.dtext{
+  background-color: red;
+  font-size: 22rpx;
+  color: #FFF;
+  padding:5rpx;
+  border-radius:10rpx ;
+}
+.pro{
+  padding-top: 15rpx;
+  margin-bottom: 10rpx;
+  display: block;
+  text-align: left;
+  
+}
+.wthree{
+  display: block;
+  width: 20%;
+ float: left;
+}
+.gress{
+  padding-top: 15rpx;
+  float: left;
+  width: 70%;
+}

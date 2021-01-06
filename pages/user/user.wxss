@@ -1,0 +1,128 @@
+.header{
+  background-color: rgb(179, 6, 6);
+  border-radius: 0rpx 0rpx 60rpx 60rpx;
+}
+.header image{
+  float: left;
+  margin-left: 30rpx;
+  margin-top: 120rpx;
+  margin-bottom: 20rpx;
+  width: 150rpx;
+  height: 150rpx;
+  border-radius:75rpx;
+}
+.vip{
+  margin: 0rpx 6%;
+  margin-top: 300rpx;
+  height: 70rpx;
+  background-image: linear-gradient(#555, #111);
+  border-radius: 20rpx 20rpx 0rpx 0rpx;
+  display: flex;
+}
+.vs{
+  flex: 3;
+  border-radius: 20rpx 0rpx 0rpx 0rpx;
+  /* background-color: green; */
+}
+.vstext{
+  font-weight: 700;line-height: 70rpx;padding-left: 20%;color: rgb(241, 199, 143);font-size:22rpx;
+}
+.vsa{
+  flex: 6;
+  /* background-color: blue; */
+}
+.sizi{
+  padding-left: 0rpx;font-weight: 0;
+ }
+.vsb{
+  flex:3;
+  border-radius: 0rpx 20rpx 0rpx 0rpx;
+  /* background-color: green; */
+}
+.buttonsizi{
+
+  margin-top: 15rpx;
+  margin-left: 40rpx;
+  background-image: linear-gradient(to right ,rgb(241, 241, 185), rgb(252, 157, 15));
+  width: 100rpx;
+  height:40rpx;
+  font-size: 20rpx;
+  border-radius: 10rpx 10rpx 10rpx 10rpx;
+}
+.sizitex{
+  padding-left:10rpx;
+  line-height: 40rpx;
+  color: rgb(160, 91, 1);
+  font-weight: 700;
+}
+.atext{
+  float: left;
+  margin-top: 150rpx;
+  margin-left: 40rpx;
+  color: #fff;
+}
+.ta{
+  display: block;
+  padding-bottom: 10rpx;
+}
+.tb{
+    background-color: #000;
+    color: orange;
+    font-size: 20rpx;
+    border-radius: 15rpx;
+    padding:5rpx;
+}
+.qingdan{
+  border-radius: 10rpx;
+  background-color: #FFf;
+  margin:20rpx 2%;
+}
+.top-qin{
+  padding: 10rpx 30rpx;
+  border-bottom: 1rpx solid #eee;
+}
+.buttom-qin{
+  display: flex;
+  justify-content: space-around;
+}
+.buttom-qin{
+ padding: 15rpx; 
+}
+.tc{
+  padding: 10rpx;
+  display: block;
+  text-align: center;
+}
+/* 广告 */
+.adver{
+  margin:0px 2%;
+
+}
+.adver image{
+  width: 100%;
+  height: 200rpx;
+ border-radius: 10rpx;
+}
+/* <!-- 我的工具 --> */
+.pading{
+  margin: 10rpx 0;
+}
+.ai{
+  display: block;
+  color: rgb(243, 202, 66);
+}
+.bi{
+  display: block;
+  color:rgb(173, 101, 6)
+}
+.ci{
+  display: block;
+  color: rgb(38, 143, 241);
+}
+.di{
+  display: block;
+  color: rgb(187, 43, 168)
+}
+.tp{
+  padding-top: 10rpx;
+}

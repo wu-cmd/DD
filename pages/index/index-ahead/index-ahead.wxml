@@ -1,0 +1,7 @@
+ <view class="header">
+   <text class="atext">{{title}}</text>
+   <view class="search">
+    <i class="iconfont icon-sousuo"></i>
+    <input type="text" placeholder="搜索商家" class="first" ></input>
+  </view>
+  </view>

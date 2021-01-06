@@ -1,0 +1,8 @@
+<block wx:for="{{list}}" wx:key="name">
+ <view>{{item.title}}</view>
+ <text>{{item.city}}</text>
+ <view>
+  <text>{{item.marketing_start}}</text>
+ </view>
+ <image src="{{item.img}}"></image>
+</block>

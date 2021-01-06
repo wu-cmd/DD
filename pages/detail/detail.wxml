@@ -1,0 +1,54 @@
+<!--pages/detail/detail.wxml-->
+<view class="detail-contain">
+<!-- banner -->
+  <view class="detalbanner">
+      <image src="../../images/sy/banner3.jpg"></image>
+  </view>
+  <!-- 头像 -->
+  <view class="headimg">
+      <image src="../../images/sy/bymx.jpg"></image>
+  </view>
+    <!-- 标题优惠券之类 -->
+  <view class="textcontain">
+        <text class="ta">一米香（金山店)</text>
+        <view class="yhq"><text class="redjian">减</text><text class="changzi">满35减8， 满56减12，满96减15</text></view>
+       <view class="yhq"> <text class="tx">返现金额16.00</text><text class="shengxia">剩余：26</text></view>
+      <view class="yhq">  <view class="leri clearfix"><view class="qiang" >已强43%</view><view class="pro"><progress percent="43" color="red"></progress></view></view> </view> 
+  </view>
+  <!-- 联系客服 -->
+  <view class="center ">
+      <view class="center-top clearfix">
+      <view class="center-img">这是照片区</view>
+      <view class="invite">邀请朋友一起抢</view>
+      </view>
+      <view class="conter-bottom clearfix">
+      <view class="bottom-img">
+        <image src="../../images/sy/bzc.png"></image>
+      </view>
+      <view class="wenzi">
+        <text>联系客服</text>
+         <text>如果你有任何建议或者疑问，请拨打电话或联系微信叮叮客服，客服在线工作时间9：00-15：30，周末留言处理</text>
+      </view>
+      <view class="tubiao"></view>
+      </view>
+  </view>
+  <!-- 最底部 -->
+  <view class="last-buttom">
+    <view class="but">
+      <icon class="iconfont icon-fenxiang iconcss"></icon>
+      <text>分享</text>
+    </view>
+    <view class="but">
+        <icon class="iconfont icon-xinbaniconshangchuan- iconcss"></icon>
+      <text>客服</text>
+    </view>
+    <view class="ctb">
+        <icon class="iconfont icon-qunfengdianjilingqu iconcss"></icon>
+      <text>领取任务</text>
+    </view>
+    <view class="ctb">
+        <icon class="iconfont icon-gouwuchexiadan iconcss"></icon>
+      <text>下单</text>
+    </view>
+  </view>
+</view>
